@@ -1,0 +1,18 @@
+<mvc:View controllerName="com.sap.UserInfo.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="User Information">
+					<content>
+						<VBox>
+							<Label text="Display name: {userModel>/displayName}"></Label>
+							<Label text="Email: {userModel>/email}"></Label>
+							<Label text="First name: {userModel>/firstName}"></Label>
+							<Label text="Last name: {userModel>/lastName}"></Label>
+						</VBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
